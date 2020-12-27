@@ -17,7 +17,7 @@ export class AdminLayoutComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  logout(event: Event) {
+  logout(event: Event): void {
     event.preventDefault()
     this.auth.logout()
     this.router.navigate(['/admin', 'login'])

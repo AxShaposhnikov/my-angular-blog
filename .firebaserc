@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "angular-blog-66a1e"
+  }
+}
